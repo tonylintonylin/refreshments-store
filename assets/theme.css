@@ -1088,7 +1088,7 @@ textarea {
 /*================ #Basic Styles ================*/
 .page-width {
   *zoom: 1;
-  max-width: 1200px;
+  max-width: 1820px;
   margin: 0 auto; }
   .page-width::after {
     content: '';
@@ -3692,9 +3692,10 @@ hr {
       border-bottom: 1px solid var(--color-border); } }
   @media only screen and (min-width: 750px) {
     .site-header {
-      padding: 0 55px; }
-      .site-header.logo--center {
-        padding-top: 30px; } }
+      padding: 45px 0px; }
+      /* .site-header.logo--center { */
+        /* padding-top: 30px; }  */
+      }
 
 .site-header__logo {
   margin: 15px 0; }
@@ -6996,3 +6997,8 @@ hr {
 
 .store-availability-list__phone {
   margin-bottom: 0; }
+
+/* customcss */
+.site-header{
+  padding: 20px 0;
+}  
