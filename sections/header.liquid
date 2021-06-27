@@ -68,12 +68,12 @@
 
         <div class="grid__item medium-up--one-third logo-align--center">
           {% if section.settings.align_logo == 'center' %}
-          {%- assign logo_classes = 'medium-up--one-third medium-up--push-one-third logo-align--center' -%}
+          {%- assign logo_classes = '' -%}
           {% else %}
           {%- assign logo_classes = 'medium-up--one-quarter logo-align--left' -%}
           {% endif %}
         
-          <div class="grid__item {{ logo_classes }}">
+          <!-- <div class="grid__item {{ logo_classes }}"> -->
             {% comment %}
             Use the uploaded logo from theme settings if enabled.
             Site name gets precedence with H1 tag on homepage, div on other pages.
@@ -119,7 +119,7 @@
             {% else %}
           </div>
           {% endif %}
-        </div>
+        <!-- </div> -->
         
         {% if section.settings.align_logo == 'left' %}
         <nav class="grid__item medium-up--one-half small--hide" id="AccessibleNav" role="navigation">
